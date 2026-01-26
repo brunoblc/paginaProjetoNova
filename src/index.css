@@ -1,16 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
-
-/* EVOLUA.VC Design System - Consultoria de Perfis Profissionais */
+/* EVOLUA.VC Design System - Azul Escuro + Turquesa */
 
 @layer base {
   :root {
@@ -23,18 +22,15 @@
     --popover: 214 31% 91%;
     --popover-foreground: 222 47% 11%;
 
-    /* Azul escuro da marca */
     --primary: 200 98% 39%;
     --primary-foreground: 204 100% 97%;
 
-    /* Cyan/Turquesa do gradiente */
     --secondary: 215 24% 26%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 215 20% 65%;
     --muted-foreground: 222 47% 11%;
 
-    /* Accent - turquesa claro */
     --accent: 210 40% 98%;
     --accent-foreground: 215 19% 34%;
 
@@ -109,7 +105,7 @@
     --input: 215 19% 34%;
     --ring: 198 93% 59%;
 
-    --sidebar-background: 220 40% 10%;
+    --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 210 40% 98%;
     --sidebar-primary: 198 93% 59%;
     --sidebar-primary-foreground: 204 80% 15%;
@@ -140,7 +136,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
+    @apply bg-background text-foreground antialiased;
     font-family: 'Montserrat', sans-serif;
   }
 

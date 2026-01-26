@@ -24,13 +24,13 @@ const About = () => {
                 profissionalmente
               </h2>
               <p className="text-lg text-muted-foreground mb-4">
-                A EVOLUA.VC nasceu da paixão por ajudar profissionais a alcançarem 
-                seu potencial máximo. Com foco em LinkedIn e currículos, 
+                A EVOLUA.VC nasceu da paixão por ajudar profissionais a alcançarem
+                seu potencial máximo. Com foco em LinkedIn e currículos,
                 transformamos carreiras através de estratégias personalizadas.
               </p>
               <p className="text-lg text-muted-foreground">
-                Nossa equipe de consultores especializados trabalha lado a lado 
-                com você para criar uma presença profissional que abre portas 
+                Nossa equipe de consultores especializados trabalha lado a lado
+                com você para criar uma presença profissional que abre portas
                 e gera oportunidades reais.
               </p>
             </div>
@@ -53,7 +53,7 @@ const About = () => {
                 <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-secondary/10 to-primary/10">
                   <h3 className="text-2xl font-bold text-primary mb-2">Nossa Missão</h3>
                   <p className="text-muted-foreground">
-                    Capacitar profissionais a construírem carreiras extraordinárias 
+                    Capacitar profissionais a construírem carreiras extraordinárias
                     através de posicionamento estratégico e presença digital impactante.
                   </p>
                 </div>
@@ -72,7 +72,7 @@ const About = () => {
 
                 {/* Quote */}
                 <blockquote className="border-l-4 border-secondary pl-4 italic text-muted-foreground">
-                  "Seu perfil profissional é sua vitrine no mundo digital. 
+                  "Seu perfil profissional é sua vitrine no mundo digital.
                   Faça dele um convite irresistível para oportunidades."
                 </blockquote>
               </div>

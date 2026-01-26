@@ -1,7 +1,9 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import evoluaLogo from "@/assets/evolua-logo.png";
+import logo from "@/assets/logo-evolua.png";
+
+const WHATSAPP_LINK = "https://wa.me/5511999999999"; // Substitua pelo número real
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,8 +11,8 @@ const Header = () => {
   const navLinks = [
     { href: "#inicio", label: "Início" },
     { href: "#servicos", label: "Serviços" },
+    { href: "#depoimentos", label: "Depoimentos" },
     { href: "#sobre", label: "Sobre" },
-    { href: "#contato", label: "Contato" },
   ];
 
   return (
@@ -20,8 +22,8 @@ const Header = () => {
           {/* Logo */}
           <a href="#inicio" className="flex items-center">
             <img 
-              src={evoluaLogo} 
-              alt="EVOLUA.VC" 
+              src={logo} 
+              alt="Evolua.VC" 
               className="h-10 md:h-12 w-auto"
             />
           </a>
@@ -32,7 +34,7 @@ const Header = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-foreground/80 hover:text-primary font-medium transition-colors"
+                className="text-foreground/80 hover:text-secondary font-medium transition-colors"
               >
                 {link.label}
               </a>
@@ -41,8 +43,14 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="gradient-primary text-white font-semibold px-6">
-              Agendar Consultoria
+            <Button 
+              className="gradient-primary text-white font-semibold px-6 hover:opacity-90 transition-opacity"
+              asChild
+            >
+              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="mr-2 h-4 w-4" />
+                Fale Conosco
+              </a>
             </Button>
           </div>
 
@@ -64,14 +72,20 @@ const Header = () => {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="text-foreground/80 hover:text-primary font-medium transition-colors"
+                  className="text-foreground/80 hover:text-secondary font-medium transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
                 </a>
               ))}
-              <Button className="gradient-primary text-white font-semibold w-full mt-2">
-                Agendar Consultoria
+              <Button 
+                className="gradient-primary text-white font-semibold w-full mt-2 hover:opacity-90 transition-opacity"
+                asChild
+              >
+                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="mr-2 h-4 w-4" />
+                  Fale Conosco
+                </a>
               </Button>
             </div>
           </nav>
