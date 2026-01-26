@@ -38,7 +38,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Ajudamos você a se destacar no mercado com perfis de LinkedIn estratégicos e currículos que conquistam recrutadores.
+            Mentoria individual e estratégica para quem busca mais visibilidade, oportunidades reais e entrevistas qualificadas.
           </p>
 
           <div className="flex justify-center">

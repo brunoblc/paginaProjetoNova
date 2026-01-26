@@ -58,17 +58,6 @@ const About = () => {
                   </p>
                 </div>
 
-                {/* Values */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="text-center p-4 rounded-xl bg-muted/50">
-                    <p className="text-3xl font-bold text-gradient">80%</p>
-                    <p className="text-sm text-muted-foreground">LinkedIn</p>
-                  </div>
-                  <div className="text-center p-4 rounded-xl bg-muted/50">
-                    <p className="text-3xl font-bold text-gradient">20%</p>
-                    <p className="text-sm text-muted-foreground">Currículos</p>
-                  </div>
-                </div>
 
                 {/* Quote */}
                 <blockquote className="border-l-4 border-secondary pl-4 italic text-muted-foreground">

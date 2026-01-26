@@ -27,8 +27,7 @@ const CTA = () => {
               Pronto para dar o próximo passo na sua carreira?
             </h2>
             <p className="text-lg md:text-xl text-white/90 mb-4">
-              Agende uma consultoria e descubra como podemos
-              transformar seu perfil profissional em uma máquina de oportunidades.
+              Caso tenha alguma dúvida, agende uma conversa sem compromisso para avaliarmos juntos como destravar novas oportunidades.
             </p>
             <p className="text-xl md:text-2xl font-semibold text-white mb-8">
               🎁 Agende uma conversa de 15 minutos gratuita
